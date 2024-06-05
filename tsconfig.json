@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "esnext",
+        "target": "es6",
+        "lib": [
+            "esnext",
+            "dom",
+        ],
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "inlineSources": true,
+        "allowJs": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "importHelpers": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictNullChecks": true,
+        "esModuleInterop": true,
+        "strict": false,
+        "noEmitOnError": false,
+        "baseUrl": "./",
+        "outDir": "dist"
+    },
+    "include": ["*.vue", "*.ts", "*.js"]
+}
